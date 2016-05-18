@@ -1,0 +1,345 @@
+@import url(bootstrap/_bootstrap.css);
+
+/* clases del menu*/
+body {
+ font-family: 'PT Sans Narrow','Montserrat','Droid Serif' !important;
+}
+
+header {
+  background-image: url('../img/footer.png'); ; }
+  /* terminan clases del menu*/
+.morado{
+  color:#C95A97;
+}
+.amarillo{
+  color:  #FFD505;
+}
+.verde{
+  color: #039E81;
+}
+.blanco{
+ background :#fff;
+}
+.logo{
+  width: 60px;
+  height: 50px; 
+}
+
+.colornav {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  font-style: bolder;
+}
+
+.colornav1 {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  font-style: bolder;
+}
+
+li a :hover {
+  background-color: rgba(250,250,250,0.8) !important;
+}
+ .active a :hover {
+  color: rgba(250,250,250,0.8) !important;
+ }
+
+.bgcolor {
+  background-color: rgba(0,0,0, 0.3);
+  height: 600px;
+  padding-top: 5%;
+}
+
+.icon-bar {
+  color: white;
+  background-color: white;
+  border: 2px;
+}
+
+.fondo {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/spark.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 50px; }
+
+.titulo {
+  color: #ffffff;
+  font-size: 72px;s
+  margin-top: 70px; }
+
+.sub {
+  color: #ffffff;
+  margin-top: 60px;
+  font-size: 20px; 
+}
+
+.secdos {
+  margin-top: 90px;
+  font-size: 30px;
+  color: #ffffff; }
+
+.secdos1 {
+  font-family: 'Playfair Display', serif !important;
+}
+
+.quienes{
+  margin-top: 90px;
+  font-size: 30px;
+  color:  #C95A97;
+}
+.sectres {
+ 
+  font-size: 1.5em;
+  color: #ffffff; }
+
+
+.linea {
+  width: 90px; 
+}
+
+.margen{
+  margin-top: 50px;
+}
+
+.margen a :hover {
+  color: #C95A97;
+  background-color: white !important;
+}
+
+/* Push */
+@-webkit-keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.hvr-push {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+.div100 {
+  width: 100%;
+}
+
+
+
+#galeria {
+  margin-top: 5%;
+  padding-bottom: 5%; }
+  #galeria h2 {
+    font-family: 'PT Sans Narrow','Montserrat','Droid Serif' !important;
+    color: #C95A97;
+    font-size: 3.5em;
+    margin-bottom: 2%;
+     }
+  #galeria p {
+    font-family: 'PT Sans Narrow','Montserrat','Droid Serif' !important;
+    color: #C95A97;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+    font-style: italic; }
+
+.gale img {
+  height: 200px !important;
+  width: 80%;
+  margin: 5%;
+  }
+
+.imgcarousel {
+  height: 300px !important;
+  width: 100% !important; }
+
+#talleres {
+  background-image: url("../img/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  margin-top: 5%;
+  padding-bottom: 5%; }
+  #talleres h2 {
+    font-family: 'PT Sans Narrow','Montserrat','Droid Serif' !important;
+    color: #C95A97;
+    font-size: 3.5em;
+    margin-bottom: 3%; }
+  #talleres h3 {
+    font-family: 'PT Sans Narrow','Montserrat','Droid Serif' !important;
+    color: #C95A97;
+    font-size: 2em;
+    margin-bottom: 5%; }
+  #talleres .rounded {
+    padding: 2%;
+    background-color: rgba(201, 93, 139, 0.9);
+    position: center !important;
+    margin-top: 5%; }
+  #talleres img {
+    width: 60%;
+    height: 200px; }
+
+.center-block {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+a {
+  text-decoration: none !important;
+}
+ 
+a :hover {
+  background-color: rgba(201, 93, 139, 0.9) !important;
+}
+
+.galeriaimg {
+  border-radius: 100%;
+}
+
+.rounded {
+  background-color: rgba(201, 93, 139, 0.3) !important;
+}
+/* MODAL */
+.h3modal {
+  font-family: 'PT Sans Narrow','Montserrat','Droid Serif' !important;
+  color: #C95A97;
+  font-size: 3em;
+  margin-bottom: 5%; }
+
+.h5modal {
+  font-family: 'PT Sans Narrow','Montserrat','Droid Serif' !important;
+  color: #C95A97;
+  font-size: 1.5em;
+  margin-bottom: 2%; }
+
+.resaltar {
+  font-style: italic;
+  color: #C95A97; }
+
+button {
+  font-weight: lighter !important; 
+  font-size: 1.3em !important;
+}
+
+.btn-primary {
+  background-color: #C95A97 !important;
+  border-color: #C95A97 !important; }
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: rgba(201, 93, 139, 0.8) !important;
+  border-color: rgba(201, 93, 139, 0.8) !important; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgba(201, 93, 139, 0.8) !important;
+  border-color: rgba(201, 93, 139, 0.8) !important; }
+
+/*# sourceMappingURL=main.css.map */
+.btnenviar {
+  width: 100px !important;
+  font-weight: lighter !important;
+}
+
+
+
+/*Contacto*/
+
+
+.h3modal2 {
+  font-family: 'PT Sans Narrow','Montserrat','Droid Serif' !important;
+  color: #C95A97;
+  font-size: 3em;
+}
+
+.mt5 {
+  margin-top: 5%;
+}
+
+.mt0 {
+  margin-top: 0px !important;
+}
+
+.fsz3 {
+  font-size: 1.5em !important;
+}
+
+.maps {
+  color: #C95A97 !important;
+}
+
+.direccion a :hover{
+  background-color: white !important;
+}
+
+.textcontact {
+  font-size: 1.3em;
+}
+
+footer {
+  background-image: url('../img/footer.png');
+  color: #FFFFFF;
+  font-size: 1em;
+  font-weight: bolder;
+  padding: 1%;
+}
+
+.fb a :hover{
+  background-color: #D694A7 !important;
+  color: #152D4A;
+}
+
+#formulario {
+  background-image: url('../img/contactoo1.png');
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  padding-bottom: 5%;
+  background-attachment: fixed;
+}
+
+#quienes, #galeria {
+  background-image: url('../img/cloud1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+

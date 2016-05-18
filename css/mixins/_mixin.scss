@@ -1,0 +1,16 @@
+@mixin titulos ($fontsz,$mgnbttm){
+	font-family: 'PT Sans Narrow','Montserrat','Droid Serif' !important;
+	color: #C95A97; 
+	font-size: $fontsz;
+	margin-bottom: $mgnbttm;
+}
+
+@mixin galeria {
+	height: 280px !important;
+	width: 100%;
+
+}
+
+@mixin borde {
+	border: 1px solid #C95A97 !important;
+}

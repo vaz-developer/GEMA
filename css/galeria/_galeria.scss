@@ -1,0 +1,105 @@
+
+
+#galeria {
+	background-color: rgba(201,93,139,0.1);
+	padding-bottom: 5%;
+	h2 {
+		@include titulos (3.5em, 2%); 
+		font-weight: bolder;
+	}
+	p {
+		@include titulos (1.2em, 5%); 
+		font-style: italic;
+	}
+}
+
+.gale {
+	
+	img {
+		@include galeria;
+		border-radius: 5px;
+	}
+
+	.thumbnail {
+		@include borde;
+	}
+
+} 
+
+.imgcarousel {
+	height: 300px !important;
+	width: 100% !important;
+}
+
+#talleres {
+	padding-bottom: 5%;
+
+	h2 {
+		@include titulos (3.5em, 3%);
+	} 
+	h3 {
+		@include titulos (2em, 5%);	
+	}
+	.rounded {
+		padding: 2%;
+		background-color: rgba(201,93,139,0.3);
+		position: center !important;
+		margin-top: 5%;
+	}
+	img {
+		width: 90%;
+		height: 300px;
+	}
+}
+
+.center-block {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+a :hover {
+	background-color: rgba(201,93,139,0.9) !important;
+}
+
+/* MODAL */
+.h3modal {
+	@include titulos (3em,5%);
+}
+
+.h5modal {
+	@include titulos (1.5em,2%);
+}
+
+.resaltar {
+	font-style: italic;
+	color: #C95A97;
+}
+
+button {
+	font-weight: bolder !important;
+}
+
+.btn-primary {
+	background-color: #C95A97 !important;
+	border-color: #C95A97 !important;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: rgba(201,93,139,0.8) !important;;
+  border-color: rgba(201,93,139,0.8) !important;;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgba(201,93,139,0.8) !important;;
+  border-color: rgba(201,93,139,0.8) !important;;
+}
+
+
+
